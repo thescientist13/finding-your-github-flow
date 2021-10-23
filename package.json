@@ -24,8 +24,8 @@
     "lit-element": "^2.5.1"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.18.0",
-    "@greenwood/plugin-import-css": "~0.18.0",
+    "@greenwood/cli": "~0.17.0",
+    "@greenwood/plugin-import-css": "~0.17.0",
     "greenwood-starter-presentation": "~0.4.0",
     "rimraf": "^3.0.2"
   }
