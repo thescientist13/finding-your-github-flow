@@ -1,0 +1,32 @@
+{
+  "name": "find-your-github-flow",
+  "version": "1.0.0",
+  "description": "Slides for my thought on how to use GitHub for effective communication and collaboration.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescientist13/finding-your-github-flow.git"
+  },
+  "keywords": [
+    "Finding Your Github Flow",
+    "Greenwood"
+  ],
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rimraf public .greenwood/",
+    "build": "greenwood build",
+    "develop": "greenwood develop",
+    "serve": "greenwood serve",
+    "start": "npm run serve"
+  },
+  "dependencies": {
+    "lit-element": "^2.5.1"
+  },
+  "devDependencies": {
+    "@greenwood/cli": "~0.18.0",
+    "@greenwood/plugin-import-css": "~0.18.0",
+    "greenwood-starter-presentation": "~0.4.0",
+    "rimraf": "^3.0.2"
+  }
+}
